@@ -35908,3 +35908,14 @@
 2025-01-16 16:47:02.298 | INFO     | __main__:main:114 - I just loved a movie! It was funny.
 2025-01-16 16:47:11.827 | INFO     | __main__:main:85 - END.....
 2025-01-16 16:47:14.302 | INFO     | __main__:main:114 - I just loved a story! It was exciting.
+2025-01-17 07:21:48.216 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-17 07:21:48.217 | INFO     | __main__:main:106 - START producer...
+2025-01-17 07:21:48.217 | INFO     | __main__:main:107 - Hit CTRL c (or CMD c) to close.
+2025-01-17 07:21:48.217 | INFO     | __main__:get_message_interval:53 - Messages will be sent every 3 seconds.
+2025-01-17 07:21:48.218 | INFO     | __main__:main:114 - I just saw The Rolling Stones! They were not great.
+2025-01-17 07:21:51.219 | INFO     | __main__:main:114 - I just found The Drive-By Truckers! They were fantastic.
+2025-01-17 07:21:54.220 | INFO     | __main__:main:114 - I just saw The Foo Fighters! They were inspiring.
+2025-01-17 07:21:57.221 | INFO     | __main__:main:114 - I just found The Drive-By Truckers! They were loud.
+2025-01-17 07:22:00.223 | INFO     | __main__:main:114 - I just heard The National! They were loud.
+2025-01-17 07:22:03.224 | INFO     | __main__:main:114 - I just found The National! They were fantastic.
+2025-01-17 07:22:06.226 | INFO     | __main__:main:114 - I just heard The Drive-By Truckers! They were incredible.

@@ -1,5 +1,5 @@
 """
-basic_generator_case.py
+basic_generator_hudson.py
 
 Generate some streaming buzz messages. 
 """
@@ -59,9 +59,9 @@ def get_message_interval() -> int:
 #####################################
 
 # Define some lists for generating buzz messages
-ADJECTIVES: list = ["amazing", "funny", "boring", "exciting", "weird"]
-ACTIONS: list = ["found", "saw", "tried", "shared", "loved"]
-TOPICS: list = ["a movie", "a meme", "an app", "a trick", "a story"]
+ADJECTIVES: list = ["incredible", "loud", "inspiring", "not great", "fantastic"]
+ACTIONS: list = ["heard", "saw", "found"]
+TOPICS: list = ["Wilco", "The National", "The Rolling Stones", "The Foo Fighters", "The Drive-By Truckers"]
 
 #####################################
 # Define a function to generate buzz messages
@@ -83,7 +83,7 @@ def generate_messages():
         adjective = random.choice(ADJECTIVES)
         action = random.choice(ACTIONS)
         topic = random.choice(TOPICS)
-        yield f"I just {action} {topic}! It was {adjective}."
+        yield f"I just {action} {topic}! They were {adjective}."
 
 
 #####################################
