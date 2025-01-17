@@ -1,4 +1,4 @@
-# buzzline-01-case
+# buzzline-01-kylehudson
 
 This project introduces streaming data. 
 The Python language includes generators - we'll use this feature to generate some streaming buzzline messages. 
@@ -95,6 +95,35 @@ Mac/Linux:
 source .venv/bin/activate
 python3 -m consumers.basic_consumer_case.py
 ```
+## Custom Producer and Consumer
+The producer: basic_producer_hudson, and the consumer: basic_consumer_hudson, are custom files for this project. 
+
+To run the producer, open a terminal in VS Code, activate .venv, and run the file as a module.
+
+Windows PowerShell:
+
+```shell
+.venv\Scripts\activate
+py -m producers.basic_producer_hudson
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producers.basic_producer_hudson
+```
+To run the consumer, open another terminal in VS Code, activate .venv, and run the file as a module.
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.basic_consumer_hudson.py
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.basic_consumer_hudson.py
 
 ## Save Space
 To save disk space, you can delete the .venv folder when not actively working on this project.
